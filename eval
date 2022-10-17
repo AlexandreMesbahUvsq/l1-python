@@ -1,0 +1,35 @@
+import random
+aleatoire=random.randint(10,99)
+n=int(input("entrez un chiffre entier"))
+if n<0 or n>9 :
+    print("la valeur doit etre comprise entre 1 et 9")
+elif aleatoire%n==0:
+    print("Diviseur")
+else :
+    print(n,"n'est pas un diviseur de",aleatoire)
+
+
+n=int(input("entrez un nombre d'annees"))
+compte=0
+for i in range(0,n):
+    compte=compte+120*(3*i)
+print("le montant du compte au bout de",n,"annees est:",compte)
+
+import random
+aleatoire=random.randint(10,99)
+n=int(input("entrez un chiffre entier entre 2 et 9"))
+if n>1 and n<9 and aleatoire%n==0  :
+    print("Diviseur")
+else :
+    print(n,"n'est pas compris dans l'intervalle demandee\n","ou n'est pas diviseur de",aleatoire)
+
+
+import random
+aleatoire=random.randint(10,99)
+n=int(input("entrez un chiffre entier"))
+if n>0 and n<9 and aleatoire%n==0  :
+    print("Diviseur")
+else :
+    print(n,"n'est pas un diviseur de",aleatoire)
+
+    
